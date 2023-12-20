@@ -1,0 +1,44 @@
+body {
+  background-color: lightblue;
+  text-align: center;
+  /* margin: 0; */
+}
+
+.wrapper {
+  background-color: bisque;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+img {
+  /* transform: translateX(200px) scaleY(0.5) rotateZ(45deg) scaleX(0.5); */
+  /* transform: scaleY(0.1); */
+
+  width: 300px;
+  background-color: aquamarine;
+}
+
+.circle {
+  border: none;
+  /* margin: 0; */
+  width: 100px;
+  padding: 50px 0;
+  line-height: 0;
+  margin: 60px auto;
+  background-color: pink;
+  color: white;
+  border-radius: 50px;
+  cursor: pointer;
+
+  /* transition-duration: background 1s; */
+  /* transition-delay: 1s; ? */
+  /* transition: background 1s; */
+  transition: background-color 1s, transform 2s 1s ease-in;
+  /* transition-timing-function: linear; */
+}
+
+.circle:hover {
+  background-color: salmon;
+  transform: rotateZ(760deg);
+}
